@@ -5,6 +5,7 @@ export default {
   server: "./app/server.ts",
   serverConditions: ["workerd", "worker", "browser"],
   serverMainFields: ["workerd", "browser", "module", "main"],
+  // eslint-disable-next-line no-undef
   serverMinify: process.env.NODE_ENV === "production",
   serverModuleFormat: "esm",
   serverPlatform: "neutral",

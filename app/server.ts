@@ -1,6 +1,7 @@
 import { createRequestHandler, logDevReady } from "@remix-run/cloudflare";
 import * as build from "@remix-run/dev/server-build";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 type Env = {
   // Add your bindings here
 };

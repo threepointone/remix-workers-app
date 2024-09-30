@@ -5,7 +5,6 @@ compatibility_date = "2024-09-25"
 main = "./dist/index.js"
 assets = { directory = "./public" }
 
-build.command = "npm run typegen"
 
 [observability]
 enabled = true
