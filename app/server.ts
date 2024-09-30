@@ -1,6 +1,10 @@
 import { createRequestHandler, logDevReady } from "@remix-run/cloudflare";
 import * as build from "@remix-run/dev/server-build";
 
+type Env = {
+  // Add your bindings here
+};
+
 declare module "@remix-run/cloudflare" {
   interface AppLoadContext {
     env: Env;
