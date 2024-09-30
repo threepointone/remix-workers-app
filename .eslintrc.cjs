@@ -80,5 +80,11 @@ module.exports = {
         node: true,
       },
     },
+
+    {
+      rules: {
+        "import/no-unresolved": "off",
+      },
+    },
   ],
 };
