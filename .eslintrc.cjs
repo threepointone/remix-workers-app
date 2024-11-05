@@ -83,6 +83,7 @@ module.exports = {
 
     {
       rules: {
+        files: ["**/*.{js,jsx,ts,tsx}"],
         "import/no-unresolved": "off",
       },
     },
